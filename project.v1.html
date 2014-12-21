@@ -336,11 +336,11 @@ print(confusionMatrix(training_pred, pred_training_set$classe))
 ## Balanced Accuracy       0.998    0.993    0.992    0.995    0.997
 </code></pre>
 
-<p>Cross validation have 99.3% accuracy so by this we make sure that our model is not biased towards our training set.</p>
+<p>Cross validation has 99.3% accuracy, so the model is not biased.</p>
 
 <h2>Predicting outcome of the test set</h2>
 
-<p>All tests were predicted correctly:</p>
+<p>Predictions are correct:</p>
 
 <pre><code class="r">predict(forest_model, pred_testing_set)
 </code></pre>
@@ -352,7 +352,7 @@ print(confusionMatrix(training_pred, pred_training_set$classe))
 
 <h2>Executive Summary</h2>
 
-<p>Our prediction model was quite accurate and we were able right answers for all the testing set.</p>
+<p>Model predicted the right answers for all tests.</p>
 
 </body>
 
