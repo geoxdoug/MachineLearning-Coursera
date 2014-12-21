@@ -12,8 +12,8 @@ given exercise belongs to. The classe varible is a factor variable with four lev
 This report we will be trying to predict the classe for each of the 20 observations provided in the testing dataset.
 
 Steps:
-1. Data Preparation/Cleaning:
-2. Building Random Forest Model
-3. Checking Model Accuracy
-4. Cross-Validation Accuracy (Out-of-Sample)
-5. Predicting Outcome of Test Set
+1. Data Preparation/Cleaning</br>
+2. Building Random Forest Model</br>
+3. Checking Model Accuracy</br>
+4. Cross-Validation Accuracy (Out-of-Sample)</br>
+5. Predicting Outcome of Test Set</br>
